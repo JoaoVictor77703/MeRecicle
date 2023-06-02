@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/lixo"
+    android:background="@drawable/fundo"
     android:orientation="vertical"
     tools:context=".SplashActivity">
 
@@ -13,17 +13,19 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerInside"
+        android:layout_marginTop="120dp"
         android:src="@drawable/logo" />
 
     <TextView
-        android:shadowColor="#FFF"
+        android:shadowColor="#000"
         android:shadowRadius="10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:fontFamily="@font/righteousregular"
-        android:text="Me"
-        android:textColor="#FFF"
+        android:fontFamily="@font/colorbold"
+        android:layout_marginTop="30dp"
+        android:text="MeRecicle"
+        android:textColor="#000"
         android:textSize="45sp"
         android:textStyle="bold" />
 
